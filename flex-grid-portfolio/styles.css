@@ -1,18 +1,14 @@
-/* style.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-.body {
-    font-family: 'Poppins', sans-serif;
-    color: #333; 
-    line-height: 1.6;
+body {
+    font-family: 'Inter', sans-serif; 
+    background-color: #f8fafc;
+    color: #334155; 
+    line-height: 1.6;        
 }
 
 
 @layer components {
     .btn-primary {
+        
         @apply bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md
                hover:bg-blue-700 transition duration-300 ease-in-out;
     }
